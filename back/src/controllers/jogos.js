@@ -10,7 +10,7 @@ async function obterJogosDeUmaRodada (ctx){
 			return(ctx, 200, result);
 		}
 
-		return response(ctx,400, {mensagem: 'A rodada deve ser um númer entre um e 38'});
+		return response(ctx,400, {mensagem: 'A rodada deve ser um númer entre 1 e 38'});
 
 	}
 	else{
